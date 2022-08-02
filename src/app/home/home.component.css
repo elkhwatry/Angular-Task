@@ -1,0 +1,43 @@
+.mat-toolbar-row {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.mat-nav-list a i {
+    margin-right: 10px;
+
+}
+.mat-nav-list a{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+}
+.mat-sidenav{
+    background-color: #EBEBEB;
+    padding: 10px;
+}
+.mat-sidenav-content{
+    background-color: #FAFAFA;
+}
+
+.table{
+    position: absolute;
+    padding: 15px 20px;
+    top: 10%;
+    left: 10%;
+    transform: translate(-10%,-10%);
+
+}
+table tr:hover td {
+    background-color: #EBEBEB;
+
+}
+table th{
+    text-align: center;
+}
+
